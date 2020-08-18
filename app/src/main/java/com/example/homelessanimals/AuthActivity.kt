@@ -57,9 +57,10 @@ class AuthActivity : AppCompatActivity() {
     private fun notification(){
         FirebaseInstanceId.getInstance().instanceId.addOnCompleteListener {
           it.result?.token?.let {
-              print("Este es el token del dispositivo: $(it)")
+              print("Este es el token del dispositivo: ${it }")
           }
         }
+       //Temas (Topic)
 
     }
     private fun setup(){
