@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "88675249789",
+    "firebase_url": "https://drougly-f6a2020.firebaseio.com",
+    "project_id": "drougly-f6a2020",
+    "storage_bucket": "drougly-f6a2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88675249789:android:2541c57241e2420c780b14",
+        "android_client_info": {
+          "package_name": "com.example.homelessanimals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88675249789-rvbnn6rrskim1ttmg490ffktd3c32goo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR3A_ayU8KA2EN4iA46lbbbXo3X_CXyIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88675249789-rvbnn6rrskim1ttmg490ffktd3c32goo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
