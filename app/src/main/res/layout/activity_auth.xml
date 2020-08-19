@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#706255"
+    android:background="#1FB598"
     tools:context=".AuthActivity">
 
     <LinearLayout
@@ -12,7 +12,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="16dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +23,7 @@
         <EditText
             android:id="@+id/emailEditText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="99dp"
             android:ems="10"
             android:hint="Email"
             android:inputType="textEmailAddress" />
@@ -31,7 +31,7 @@
         <EditText
             android:id="@+id/passwordEditText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="83dp"
             android:ems="10"
             android:hint="Contraseña"
             android:inputType="textPassword" />
@@ -42,13 +42,13 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="109dp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/loginButton"
                 android:layout_width="100dp"
-                android:layout_height="wrap_content"
+                android:layout_height="71dp"
                 android:layout_weight="1"
                 android:background="#9c9a9f"
                 android:text="Accéder" />
@@ -61,7 +61,7 @@
             <Button
                 android:id="@+id/singUPButton"
                 android:layout_width="100dp"
-                android:layout_height="wrap_content"
+                android:layout_height="83dp"
                 android:layout_weight="1"
                 android:background="#9c9a9f"
                 android:text="Registrar" />
@@ -74,8 +74,7 @@
             <Button
                 android:id="@+id/googleButton"
                 android:layout_width="104dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_height="89dp"
                 android:background="@android:color/white"
                 android:drawableStart="@drawable/common_google_signin_btn_icon_dark"
                 android:text="Google"
