@@ -63,7 +63,11 @@ class AuthActivity : AppCompatActivity() {
         }
        //Temas (Topic)
         FirebaseMessaging.getInstance().subscribeToTopic("Adopta")
-
+//Recuperar informacion
+        val url = intent.getStringExtra("url")
+        url?.let {
+            print("Ha llegado informacion : ${it}")
+        }
     }
     private fun setup(){
         title = "Autentificación"
